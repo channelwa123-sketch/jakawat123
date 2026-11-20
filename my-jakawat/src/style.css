@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+
+/* ตั้งค่าฟอนต์หลัก */
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* เลื่อนหน้าเว็บแบบนุ่มนวล */
+html {
+    scroll-behavior: smooth;
+}
+
+/* เอฟเฟกต์เมื่อนำเมาส์ไปวางบนเมนู */
+nav a {
+    transition: color 0.3s ease;
+}
+
+/* เอฟเฟกต์ปุ่ม */
+a {
+    transition: all 0.3s ease;
+}
